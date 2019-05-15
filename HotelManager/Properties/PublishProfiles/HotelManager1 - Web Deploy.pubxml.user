@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwL4q4dcMzU6BjZHopfhBSgAAAAACAAAAAAAQZgAAAAEAACAAAAD2KINQ5mItO8xjiocJSFpMan+Qh0hHQmmBjdMfLQY4+wAAAAAOgAAAAAIAACAAAACMmnh+NKQf8jtzSG7Xi80D2H4rKWjizjAuQR6Cyh8ne4AAAADrniT9GGwj5P01jFjsPYPjvCE3Gr6z16Q6tdyP7+27rfDLidiL6LrI+Wno4YjFPHQjD4Nw5xFKKAOFquUZRLm09diuTYZ3Gadx4hJIgi+mmENq76HAb1dNJuXr5+YnQSLPvErxFbpfXThqkxmXKd5tTXEhl7iXvYkVboe2ar99IUAAAADXIANBgTOmI9nS33R6ERjgHerUTF+O+76xDvmkSYPADZlb6l0WOJ97iVUt1ECHYQTQQ5BPWaVStm7s1O4f6RTZ</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:hotelmanager1dbserver.database.windows.net,1433%3bInitial Catalog=HotelManager1_db%3bUser Id=adminuser%40hotelmanager1dbserver%3bPassword=25251325zZ%2a</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="HotelManager.Data.ApplicationDbContext">
+      <Value>Data Source=tcp:hotelmanager1dbserver.database.windows.net,1433%3bInitial Catalog=HotelManager1_db%3bUser Id=adminuser%40hotelmanager1dbserver%3bPassword=25251325zZ%2a</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

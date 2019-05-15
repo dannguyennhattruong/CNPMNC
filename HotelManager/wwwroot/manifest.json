@@ -1,0 +1,20 @@
+{"name" : "HotelManage",
+    "short_name" : "HM",
+    "description" : "none",
+    "start_url" : "/Manages/Index",
+    "scope" : "/",
+    "display" : "standalone",
+    "orientation" : "portrait",
+    "lang" : "Armenian",
+    "background_color" : "transparent",
+    "generated" : "undefined",
+    "icons" : [
+        {
+            "src": "https://hotelmanager1.azurewebsites.net/images/192x192.png",
+            "sizes": "192x192"
+        },
+      {
+        "src": "https://hotelmanager1.azurewebsites.net/images/512x512.png",
+        "sizes": "512x512"
+      }
+    ]}
